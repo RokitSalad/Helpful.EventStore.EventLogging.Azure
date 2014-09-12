@@ -1,4 +1,4 @@
-﻿namespace EventStore.EventLogging
+﻿namespace Helpful.EventStore.EventLogging
 {
     public class StorableEvent
     {

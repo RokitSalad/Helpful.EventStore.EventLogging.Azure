@@ -1,7 +1,7 @@
 ﻿using EventStore.ClientAPI;
 using EventStore.ClientAPI.SystemData;
 
-namespace EventStore.EventLogging
+namespace Helpful.EventStore.EventLogging
 {
     public class StoreService
     {

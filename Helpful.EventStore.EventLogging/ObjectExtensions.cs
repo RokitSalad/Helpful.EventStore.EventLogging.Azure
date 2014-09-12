@@ -3,7 +3,7 @@ using System.Text;
 using EventStore.ClientAPI;
 using Newtonsoft.Json;
 
-namespace EventStore.EventLogging
+namespace Helpful.EventStore.EventLogging
 {
     static class ObjectExtensions
     {
