@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpful.EventStore.EventLogging", "Helpful.EventStore.EventLogging.csproj", "{A73ABFDF-367C-49DD-80B3-509ABA1300CF}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Helpful.EventStore.EventLogging.Azure", "..\Helpful.EventStore.EventLogging.Azure\Helpful.EventStore.EventLogging.Azure.ccproj", "{D76FFA65-81FB-4D31-97BC-D2A9978AD1E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpful.EventStore.EventLogging.Service", "Helpful.EventStore.EventLogging.Service\Helpful.EventStore.EventLogging.Service.csproj", "{8A2F2E52-447F-45EB-86D3-0620418C89AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A73ABFDF-367C-49DD-80B3-509ABA1300CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A73ABFDF-367C-49DD-80B3-509ABA1300CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73ABFDF-367C-49DD-80B3-509ABA1300CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76FFA65-81FB-4D31-97BC-D2A9978AD1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76FFA65-81FB-4D31-97BC-D2A9978AD1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76FFA65-81FB-4D31-97BC-D2A9978AD1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76FFA65-81FB-4D31-97BC-D2A9978AD1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2F2E52-447F-45EB-86D3-0620418C89AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2F2E52-447F-45EB-86D3-0620418C89AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2F2E52-447F-45EB-86D3-0620418C89AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2F2E52-447F-45EB-86D3-0620418C89AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
