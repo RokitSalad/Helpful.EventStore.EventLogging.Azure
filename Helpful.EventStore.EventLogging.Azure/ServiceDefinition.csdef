@@ -4,8 +4,5 @@
     <Imports>
       <Import moduleName="Diagnostics" />
     </Imports>
-    <ConfigurationSettings>
-      <Setting name="Microsoft.ServiceBus.ConnectionString" />
-    </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>

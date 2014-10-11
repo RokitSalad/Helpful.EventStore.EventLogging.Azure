@@ -37,7 +37,15 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Helpful.EventStore.EventLogging\Helpful.EventStore.EventLogging.Service\Helpful.EventStore.EventLogging.Service.csproj">
+    <Folder Include="Helpful.EventStore.EventLogging.ServiceContent\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Helpful.EventStore.EventLogging.ServiceContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helpful.EventStore.EventLogging.Service\Helpful.EventStore.EventLogging.Service.csproj">
       <Name>Helpful.EventStore.EventLogging.Service</Name>
       <Project>{8a2f2e52-447f-45eb-86d3-0620418c89af}</Project>
       <Private>True</Private>
@@ -45,14 +53,6 @@
       <RoleName>Helpful.EventStore.EventLogging.Service</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Helpful.EventStore.EventLogging.ServiceContent\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Helpful.EventStore.EventLogging.ServiceContent\diagnostics.wadcfg">
-      <SubType>Content</SubType>
-    </Content>
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

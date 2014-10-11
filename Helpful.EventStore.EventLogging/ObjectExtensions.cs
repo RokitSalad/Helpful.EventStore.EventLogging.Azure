@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 
 namespace Helpful.EventStore.EventLogging
 {
-    static class ObjectExtensions
+    internal static class ObjectExtensions
     {
         public static EventData AsJson(this object value)
         {
